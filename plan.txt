@@ -1,0 +1,21 @@
+We are building a small game, name:- guess my number..
+-----------------------------------------------------------------------
+📌 First of all we need to design the game with the html and css
+-----------------------------------------------------------------------
+📌 The components we need in this game..
+1. Again button :- restart the game...
+2. check button :- checks the given value to the randome number if it matches then background will change to green and the player wins
+3. score :- in this section we write score of the player the maximum score can be 20... and also checks the previous score of the player if the current score is more than the previous one then it stores and shows on the window in highscore area..
+4. highscore :- in this section we see the highestscore of the player...
+5. hint :- this section hints the player that he entered low or high according to the randome number..
+-----------------------------------------------------------------------
+📌 logic behind the components :-
+👉 we have to create some functions :-
+~ randomNumberGenrator :- which generate the randome number b/w 1 to 20...
+~ checkNumber :- which compaire the given input and the generated random number if the number is matched then the background color of the wrapper is changed.. to green..and displays the you win in the main heading area...
+in this function we also compaire the input value to the random num to check its low or high then show on the hint section
+
+
+1. Again button :- it is a button, and whenever the button is clicked randomNumberGenrator function is called...
+2. check Number :- when this button is clicked checkNumber function is called....
+
